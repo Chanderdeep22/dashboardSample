@@ -1,0 +1,12 @@
+.new{
+    padding: 52px;
+    text-align: center;
+
+}
+.card{
+    padding: 28px;
+}
+table,tr,td,th{
+      border: 2px solid black;
+
+}

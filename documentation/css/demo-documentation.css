@@ -403,15 +403,7 @@ body{
     margin-top:0;
     min-height: 740px;
 }
-#notifications{
-    background-color: #FFFFFF;
-    display: block;
-    width: 100%;
-    position: relative;
-}
-#notifications .alert-danger{
-    margin-bottom: 0px;
-}
+
 .tim-note{
     text-transform: capitalize;
 }
@@ -688,9 +680,7 @@ body{
     background-color: #333333;
 }
 .section-thin,
-.section-notifications{
-    padding: 0;
-}
+
 .section-navbars{
     padding-top: 0;
 }

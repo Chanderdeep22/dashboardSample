@@ -15,7 +15,6 @@ export const ROUTES: RouteInfo[] = [
     { path: '/productBacklog', title: 'Product Backlog',  icon:'bubble_chart', class: '' },
     { path: '/refferenceData', title: 'Refference Data',  icon:'bubble_chart', class: '' },
     { path: '/standUpMeet', title: 'Stand Up Meet',  icon:'bubble_chart', class: '' },
-    { path: '/notifications', title: 'Notifications',  icon:'notifications', class: '' },
 
 ];
 

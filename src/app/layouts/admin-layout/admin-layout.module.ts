@@ -10,7 +10,6 @@ import { CapacityPlanningComponent} from '../../capacity-planning/capacity-plann
 import {StandUpMeetComponent} from '../../stand-up-meet/stand-up-meet.component';
 import { SprintBacklogsComponent } from '../../sprint-backlogs/sprint-backlogs.component';
 import { ProductBacklogComponent } from '../../product-backlog/product-backlog.component';
-import { NotificationsComponent } from '../../notifications/notifications.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatRippleModule} from '@angular/material/core';
@@ -39,7 +38,6 @@ import {MatSelectModule} from '@angular/material/select';
     StandUpMeetComponent,    
     ProductBacklogComponent,
     RefferenceDataComponent,
-    NotificationsComponent,
   ]
 })
 

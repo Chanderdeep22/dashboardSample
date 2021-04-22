@@ -11291,23 +11291,6 @@ fieldset[disabled] .form-group .form-control {
     -webkit-box-shadow: none;
             box-shadow: none;
     padding-top: 25px; }
-  .navbar .notification {
-    position: absolute;
-    top: 5px;
-    border: 1px solid #FFF;
-    right: 10px;
-    font-size: 9px;
-    background: #f44336;
-    color: #FFFFFF;
-    min-width: 20px;
-    padding: 0px 5px;
-    height: 20px;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 19px;
-    vertical-align: middle;
-    display: block; }
-
 #navbar .navbar {
   border-radius: 0; }
 
@@ -11336,8 +11319,6 @@ fieldset[disabled] .form-group .form-control {
     top: 0px;
     position: relative;
     margin-right: 3px; }
-  .navbar .collapse .navbar-nav .nav-item .nav-link .notification {
-    top: 0px; }
 
 .off-canvas-sidebar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   padding-top: 15px;
@@ -13824,15 +13805,6 @@ label {
   margin-top: 0;
   min-height: 740px; }
 
-#notifications {
-  background-color: #fff;
-  display: block;
-  width: 100%;
-  position: relative; }
-
-#notifications .alert-danger {
-  margin-bottom: 0px; }
-
 .tim-note {
   text-transform: capitalize; }
 
@@ -14714,10 +14686,6 @@ a[aria-expanded="true"] .caret,
       padding-bottom: 60px; }
     .sidebar .nav-mobile-menu {
       margin-top: 0; }
-      .sidebar .nav-mobile-menu .notification {
-        float: left;
-        line-height: 30px;
-        margin-right: 8px; }
       .sidebar .nav-mobile-menu .open .dropdown-menu {
         position: static;
         float: none;

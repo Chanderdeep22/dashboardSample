@@ -75,31 +75,6 @@
 		return str;
 	};
 
-	function isDuplicateNotification(notification) {
-		var isDupe = false;
-
-		$('[data-notify="container"]').each(function (i, el) {
-			var $el = $(el);
-			var title = $el.find('[data-notify="title"]').text().trim();
-			var message = $el.find('[data-notify="message"]').html().trim();
-
-			// The input string might be different than the actual parsed HTML string!
-			// (<br> vs <br /> for example)
-			// So we have to force-parse this as HTML here!
-			var isSameTitle = title === $("<div>" + notification.settings.content.title + "</div>").html().trim();
-			var isSameMsg = message === $("<div>" + notification.settings.content.message + "</div>").html().trim();
-			var isSameType = $el.hasClass('alert-' + notification.settings.type);
-
-			if (isSameTitle && isSameMsg && isSameType) {
-				//we found the dupe. Set the var and stop checking.
-				isDupe = true;
-			}
-			return !isDupe;
-		});
-
-		return isDupe;
-	}
-
 	function Notify(element, content, options) {
 		// Setup Content of Notify
 		var contentObj = {
